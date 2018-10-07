@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int tb, bb, hasil;
+    cout<<"Menghitung BBI\n";
+    cout<<"Masukan Tinggi Badan (cm) = ";
+    cin>>tb;
+    cout<<"Masukkan Berat Badan (kg) = ";
+    cin>>bb;
+    
+    hasil =((tb-100)-(tb-100)*0.1);
+
+    cout<<"BBI= "<<hasil;
+   
+    if(hasil <=2 && hasil>=-2)
+    {
+        cout<<"\nBerat Ideal"<<endl;
+    }
+    else
+    {
+        cout<<"\nBerat Tidak ideal"<<endl;
+    }
+    return 0;
+}
