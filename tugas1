@@ -10,8 +10,6 @@ int main() {
     brtideal=((tb-100)-(tb-100)*0.1);
 
     cout<<"Berat Badan Idealnya = "<<brtideal;
-    cout<<"\n\n";
-
     if(brtideal<=2 && brtideal>=-2)
     {
     cout<<"Berat Badan Anda Ideal. "<<endl;
